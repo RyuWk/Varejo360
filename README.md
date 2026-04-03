@@ -22,8 +22,9 @@
    docker-compose up -d
 
 Nota: O banco será inicializado na porta 5433 conforme configurado no application.properties.
+
 2. **Executar a aplicação**
-Entre na pasta do backend e execute:
+    Entre na pasta do backend e execute:
     ```bash
     ./mvnw spring-boot:run
 
