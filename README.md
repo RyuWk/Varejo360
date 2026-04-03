@@ -1,7 +1,5 @@
 # Catálogo de Leite - Fullstack Web Varejo 360
 
-Este projeto é um sistema de gerenciamento de catálogo de produtos (leite), permitindo a busca por código ou nome, cadastro de novos itens com validação de código único, exclusão com modal customizado e paginação real no front e back-end.
-
 ## Tecnologias Utilizadas
 
 - **Backend:** Java 17, Spring Boot 3.x, Spring Data JPA, Hibernate.
@@ -10,7 +8,7 @@ Este projeto é um sistema de gerenciamento de catálogo de produtos (leite), pe
 
 ---
 
-## 🚀 Como Executar o Backend
+## Como Executar o Backend
 
 ### Pré-requisitos
 * Java 17 instalado.
@@ -25,8 +23,9 @@ Este projeto é um sistema de gerenciamento de catálogo de produtos (leite), pe
 
 Nota: O banco será inicializado na porta 5433 conforme configurado no application.properties.
 2. **Executar a aplicação**
+Entre na pasta do backend
+
     ```bash
-    # Entre na pasta do backend
     ./mvnw spring-boot:run
 
 O servidor estará disponível em: http://localhost:8080
@@ -38,12 +37,12 @@ O servidor estará disponível em: http://localhost:8080
 
 ### Passos
 
-1. **Instalar dependências:
+1. **Instalar dependências:**
     Entre na pasta do frontend
     ```bash
     npm install
 
-    Executar em modo de desenvolvimento:
+2. **Executar em modo de desenvolvimento:**
     ```bash
     npm run dev
 
