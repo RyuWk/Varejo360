@@ -2,7 +2,7 @@
 
 ## Tecnologias Utilizadas
 
-- **Backend:** Java 17, Spring Boot 3.x, Spring Data JPA, Hibernate.
+- **Backend:** Java 17, Spring Boot 4.0.5, Spring Data JPA, Hibernate.
 - **Frontend:** React (Vite), Axios, CSS3 (Identidade Visual fiel ao Figma).
 - **Banco de Dados:** PostgreSQL 15 (via Docker Compose).
 
