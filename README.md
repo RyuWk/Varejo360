@@ -17,18 +17,16 @@
 
 ### Passos
 1. **Subir o Banco de Dados:**
-   Abra o terminal na raiz do projeto (onde está o arquivo `docker-compose.yml`) e execute:
+   Abra o terminal na pasta catalogo-leite-back (onde está o arquivo `docker-compose.yml`) e execute:
    ```bash
    docker-compose up -d
 
 Nota: O banco será inicializado na porta 5433 conforme configurado no application.properties.
 
 2. **Executar a aplicação**
-    Entre na pasta do backend e execute:
+    Ainda na pasta do backend e execute:
     ```bash
     ./mvnw spring-boot:run
-
-O servidor estará disponível em: http://localhost:8080
 
 ## Como Executar o Frontend
 
