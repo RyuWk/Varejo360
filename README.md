@@ -1,2 +1,51 @@
-# catalogo-leite-varejo360
- Desafio fulltstack para vaga de estagiário na empresa Varejo 360
+# Catálogo de Leite - Fullstack Web Varejo 360
+
+Este projeto é um sistema de gerenciamento de catálogo de produtos (leite), permitindo a busca por código ou nome, cadastro de novos itens com validação de código único, exclusão com modal customizado e paginação real no front e back-end.
+
+## Tecnologias Utilizadas
+
+- **Backend:** Java 17, Spring Boot 3.x, Spring Data JPA, Hibernate.
+- **Frontend:** React (Vite), Axios, CSS3 (Identidade Visual fiel ao Figma).
+- **Banco de Dados:** PostgreSQL 15 (via Docker Compose).
+
+---
+
+## 🚀 Como Executar o Backend
+
+### Pré-requisitos
+* Java 17 instalado.
+* Docker e Docker Compose instalados.
+* Maven (utilize o wrapper `./mvnw` incluso).
+
+### Passos
+1. **Subir o Banco de Dados:**
+   Abra o terminal na raiz do projeto (onde está o arquivo `docker-compose.yml`) e execute:
+   ```bash
+   docker-compose up -d
+
+Nota: O banco será inicializado na porta 5433 conforme configurado no application.properties.
+2. **Executar a aplicação**
+    ```bash
+    # Entre na pasta do backend
+    ./mvnw spring-boot:run
+
+O servidor estará disponível em: http://localhost:8080
+
+## Como Executar o Frontend
+
+### Pré-requisitos
+* Node.js (v18 ou superior).
+
+### Passos
+
+1. **Instalar dependências:
+    Entre na pasta do frontend
+    ```bash
+    npm install
+
+    Executar em modo de desenvolvimento:
+    ```bash
+    npm run dev
+
+O frontend estará disponível em: http://localhost:5173
+
